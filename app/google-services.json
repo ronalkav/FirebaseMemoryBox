@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "898490035802",
+    "project_id": "memorybox-a972a",
+    "storage_bucket": "memorybox-a972a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898490035802:android:c630b9fe7190ba63503263",
+        "android_client_info": {
+          "package_name": "com.example.firebasememoryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898490035802-12lnqk98esgo04a3k71c9lvu89ec1rds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASqcqbQWVUBR7FmDBvoq7E0AW4ho6Z_po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898490035802-12lnqk98esgo04a3k71c9lvu89ec1rds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

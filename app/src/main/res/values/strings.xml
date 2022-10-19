@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FirebaseMemoryApp</string>
+    <string-array name="memoryRating">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <iten>2</iten>
+    </string-array>
+
 </resources>

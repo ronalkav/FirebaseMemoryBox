@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/priorityChosen"
+    style="?attr/spinnerDropDownItemStyle"
+    android:layout_width="@dimen/memEditTextWidth"
+    android:layout_height="@dimen/spinnerHeight"
+    android:text="My Choice"
+    android:padding="@dimen/padding"
+    android:background="@color/secondaryDarkColor"
+    android:textColor="@color/primaryTextColor"
+    android:textSize="@dimen/fontRegular"
+    android:layout_marginTop="@dimen/margin"
+    />

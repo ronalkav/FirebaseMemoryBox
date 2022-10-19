@@ -6,4 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".AddMemoryActivity">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop"
+        android:text="Add a Memory"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="@dimen/fontTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/memNameEditText"
+        style="@style/editTextStyles"
+        android:layout_width="@dimen/memEditTextWidth"
+        android:layout_height="@dimen/spinnerHeight"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/spinnerColor"
+        android:ems="10"
+        android:hint="Name of Memory"
+        android:inputType="textPersonName"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="@dimen/fontRegular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memorySpinner" />
+
+    <EditText
+        android:id="@+id/memoryDescEditText"
+        style="@style/editTextStyles"
+        android:layout_width="@dimen/memEditTextWidth"
+        android:layout_height="@dimen/memEditTextDescHeight"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/spinnerColor"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memNameEditText" />
+
+    <Spinner
+        android:id="@+id/memorySpinner"
+        android:layout_width="@dimen/memEditTextWidth"
+        android:layout_height="@dimen/spinnerHeight"
+        android:layout_marginTop="@dimen/margin"
+        android:entries="@array/memoryRating"
+        style="@style/spinnerStyles"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/addMemoryButton"
+        style="@style/buttonStyles"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:onClick="addMemoryButtonClicked"
+        android:text="Add Memory"
+        android:layout_marginTop="@dimen/margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memoryDescEditText" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        style="@style/buttonStyles"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:backgroundTint="@color/primaryDarkColor"
+        android:onClick="goBackButtonClicked"
+        android:text="Select Option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addMemoryButton" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

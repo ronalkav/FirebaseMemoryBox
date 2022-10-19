@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".SelectActionActivity">
 
+    <Button
+        android:id="@+id/showMemoriesButton"
+        style="@style/buttonStyles"
+        android:onClick="showMemories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginFromTop"
+        android:text="See Memories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addMemoryButton"
+        style="@style/buttonStyles"
+        android:onClick="addMemories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Add a Memory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showMemoriesButton" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        style="@style/buttonStyles"
+        android:onClick="logOutClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Log Out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addMemoryButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

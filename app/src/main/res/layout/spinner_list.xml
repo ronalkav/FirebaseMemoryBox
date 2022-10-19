@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/memPriority"
+    android:layout_width="@dimen/memEditTextWidth"
+    android:layout_height="@dimen/spinnerHeight"
+    android:text="MySpinner"
+    android:textSize="@dimen/fontRegular"
+    android:textColor="@color/primaryDarkColor"
+    android:padding="@dimen/padding"
+    android:background="@color/spinnerColor"
+    android:ellipsize="marquee"
+    android:layout_marginTop="@dimen/margin"
+    />
+
